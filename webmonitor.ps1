@@ -13,7 +13,7 @@ $adDomain = $secureCfg.adDomain
 $adContainer = $secureCfg.adContainer
 $websiteListFile = "websites.txt"
 $logFile = "website_monitoring.log"
-$monitoringInterval = 10 # Minutos entre as verificações (ajuste conforme necessário)
+$monitoringInterval = 10 
 
 function Get-SecureConfig {
     param(
